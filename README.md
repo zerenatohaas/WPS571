@@ -7,9 +7,9 @@ The full text can be downloaded at https://www.bcb.gov.br/content/publicacoes/Wo
 
 Data from the working paper are aggregated at the municipality-month level for each type of financial institution.
 
-The Stata dta data file contains 7 fields:
-- The Municipality code from IGBE (mun_cd_ibge_cli)
-- The year and month (time_id)
+The Stata dta data file (flags_muni_level.dta) contains 7 fields:
+- mun_cd_ibge_cli: The Municipality code from IBGE
+- time_id: The year and month
 - Flags for each type of financial institution:
     - flag_P2P: a 0/1 flag indicating whether there was a working capital loan from P2P platforms at that month - municipality
     - flag_credit_union: a 0/1 flag indicating whether there was a working capital loan from credit unions at that month - municipality
